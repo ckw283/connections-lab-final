@@ -1,0 +1,54 @@
+body {
+    background-color: #f8fde1;
+}
+
+h1 {
+    font-family: 'Gilda Display', serif;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-book {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#get-recipes {
+    margin: 20px;
+}
+
+#recipe-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.chirp-input {
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+}

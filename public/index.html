@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gilda+Display&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    </link>
+    <title>recipe sharing is caring</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- View everyones chirp here -->
+        <div class="sub-container feed">
+            <h1> leave a recipe <3 tell its story</h1>
+                    <h3>what better way to connect with someone than with food? we all have memories with food and for a
+                        lot of us it's a tie to our family and our culture. some of us may have helped our grandparents
+                        bake snickerdoodles and apple pies in the kitchen, following recipes written on fading yellow
+                        index cards. others of us maybe didn't learn these generational and culture recipes as children
+                        and are asking our parents now how to make that curry, only to receive a somewhat frustrating
+                        answer of "no measurements, just add stuff until it's good". here is a place where we can
+                        document those snippets of childhood and share it with others so that those recipes (and stories
+                        that go with them) may live on!</h3>
+        </div>
+
+        <!-- Enter new chirp here -->
+        <div class="sub-container chirp">
+            <input type="text" class="chirp-input" id="chirp-name" placeholder="name" />
+            <input type="text" class="chirp-input" id="chirp-content" placeholder="what recipe/memory do you want to share?" />
+            <button id="chirp-button">share <3</button>
+        </div>
+
+        <div class="recipe-book">
+            <button id="get-recipes">view archived recipes</button>
+            <div id="recipe-info">
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
