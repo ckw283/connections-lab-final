@@ -6,7 +6,7 @@ const MongoDBPass = process.env.MongoDBPass;
 
 //setup DB and connect
 const { Database } = require("quickmongo");
-const db = new Database("mongodb+srv://ckw283:" + MongoDBPass + "FHiVYhX5N51t0qJS@connectionslab.yhz5kee.mongodb.net/?retryWrites=true&w=majority");
+const db = new Database("mongodb+srv://ckw283:" + MongoDBPass + "@connectionslab.yhz5kee.mongodb.net/?retryWrites=true&w=majority");
 db.on("ready", () => {
     console.log("Connected to the database");
 });
